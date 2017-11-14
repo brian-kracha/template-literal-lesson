@@ -14,7 +14,7 @@ function printDate (date) {
 let x = 5;
 
 function squareNum (num) {
-  return (num + " squared is " + Math.pow(num, 2) + " and not " + Math.pow(num, 3));
+  return (`${num} squared is ${Math.pow(num, 2)} and not ${Math.pow(num, 3)}`);
 }
 
 squareNum(x);
